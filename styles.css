@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(273, 58%, 46%);
+    margin: 0;
+    padding: 0;
+}
+.h1_MainTitle{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+    text-shadow: 3px 3px 7px black;
+    font-size: 50px;
+}
+.p_MainText{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    text-shadow: 3px 3px 7px black;
+    font-size: 20px;
+}
+#TextInput, #TextInput2{
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+}
+#CalculDiv{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ButtonCalcul{
+    margin: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: hsl(27, 77%, 57%);
+    border: none;
+}
+#ButtonCalcul:hover{
+    cursor: pointer;
+    background-color: hsl(27, 67%, 54%);
+}
+.h1_Calcul{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 3px 7px black;
+    font-size: 20px;
+}
+.mainResultDiv{
+    text-align: center;
+}
+#resultDiv{
+    width: 100px;
+    height: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+#resultDiv input{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#resultDiv button{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: hsl(27, 77%, 57%);
+    border: none;
+    transition: 0.1s;
+}
+#resultDiv button:hover{
+    transition: 0.1s;
+    cursor: pointer;
+    border: 2px solid hsl(27, 77%, 57%);
+    background-color: hsl(273, 58%, 46%);
+}
