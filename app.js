@@ -36,7 +36,7 @@ function resultButton() {
     result = nombre_random_1 * nombre_random_2;
     resultUser = document.getElementById("resultInput").value;
     if (resultUser != result) {
-        document.getElementById("calcul").innerHTML = "Not the right answer, try again!";
+        document.getElementById("calcul").innerHTML = "Not the right answer, try again! " + nombre_random_1 + "*" + nombre_random_2;
     } else {
         document.getElementById("calcul").innerHTML = "Good! Next in 2 second";
         setTimeout(function(){
