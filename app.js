@@ -12,6 +12,7 @@ function number() {
         nombre_random_2 = 1
     }
 
+    
     if (nombre_random_1 > 0 && nombre_random_2 > 0 && nombre1 != "" && nombre2 != ""){
         document.getElementById("calcul").innerHTML = "What is the result of: " + nombre_random_1 + "*" + nombre_random_2;
     }else{
